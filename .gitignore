@@ -1,0 +1,56 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Latex files
+# PDFs are ignored by default
+*.log
+*.aux
+*.pdf
+*.toc
+*.synctex.gz
+
+# CMake files
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+cmake-build-debug
+
+# IDE-specific ignores
+sonar-project.properties
+.sonar
+.vscode
+.idea
+
+# Misc generated files
+obj/
+bin/
+build/
