@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 2.6)
 project(dc_tp_template)
 
-set(SOURCE_FILES src/my_src.cpp)
+file(GLOB SOURCE_FILES
+  "${CMAKE_SOURCE_DIR}/src/*.h"
+  "${CMAKE_SOURCE_DIR}/src/!(main).cpp"
+)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -pedantic")
 
